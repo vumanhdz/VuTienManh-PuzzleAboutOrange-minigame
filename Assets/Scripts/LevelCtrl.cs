@@ -11,8 +11,8 @@ public class LevelCtrl : MonoBehaviour
     void Start()
     {
 
-                PlayerPrefs.SetInt("LvAt", 2);
-        
+/*                PlayerPrefs.SetInt("LvAt", 2);
+        */
         int lvAtt = PlayerPrefs.GetInt("LvAt", 2);
         for (int i = 0; i < lvlBtn.Length; i++)
         {
